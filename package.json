@@ -1,0 +1,8 @@
+{
+  "name": "Typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/meno1011/Typechain.git",
+  "author": "meno1011 <39692905+meno1011@users.noreply.github.com>",
+  "license": "MIT"
+}
