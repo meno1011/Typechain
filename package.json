@@ -1,8 +1,15 @@
 {
-  "name": "Typechain",
+  "name": "typechain",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/meno1011/Typechain.git",
+  "repository": "https://github.com/meno1011/Typechain",
   "author": "meno1011 <39692905+meno1011@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "npx tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
 }
