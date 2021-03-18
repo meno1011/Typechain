@@ -6,10 +6,10 @@
   "author": "meno1011 <39692905+meno1011@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
   },
   "devDependencies": {
+    "tsc-watch": "^4.2.9",
     "typescript": "^4.2.3"
   }
 }
